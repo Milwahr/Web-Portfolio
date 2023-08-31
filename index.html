@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        section{
+            padding: 60px
+        }
+        img {
+            width: 300px;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light mb-4">
+        <div class="container-xxl">
+          <!-- navbar brand / title -->
+          <a class="navbar-brand" href="#start">
+            <span class="text-secondary fw-bold">
+              <i class="bi bi-clouds-fill"></i>
+              Daydreamer
+            </span>
+          </a>
+
+          <!-- toggle button for mobile nav -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- nav links -->
+          <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Previous Work</a>
+              </li>
+              <li class="nav-item ms-2 d-none d-md-inline">
+                <a class="btn btn-secondary" href="#">Get in Touch</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- About Me Section-->
+
+      <section id="start" class="">
+        <div class="container-lg">
+            <div class="row g-4 justify-content-center align-items-center">
+                <div class="col-md-5 text-center">
+                    <img src="/assets/ja-slika-sketch.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-5 text-center text-md-center">
+                    <div class="display-2">Roberto Milic</div>
+                    <div class="display-5 text-muted">Daydreamer</div>
+                    <p class="lead text-end">- The only constant in life is that nothing is constant</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h1 class="display-3 text-center">About Me</h1>
+
+        <div class="container my-5">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Me</button>
+        
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Education</button>
+        
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Interests</button>
+        
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+        
+              <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <h2>Me as a person</h2>
+                <p>So...to start this off. I'm Roberto and I've been living in Croatia for like 17-ish years now. Born in the Netherlands however, so I have cultural characteristics of two sides of Europe. Which resulted in a funny combo where I love to crack jokes and have fun, but am I'm also a stickler with scheduling (mostly for myself).</p>
+                <p>I enjoy a lot of things, starting of with the general IT stuff. I've been fiddling with PCs since I can remember. Always loved working on them and with them. It started with just loving to game and evolved pretty quickly from there. Which relates to another hobby of mine, which is gaming. I enjoy gaming a lot, one of my favourite past-times. Strategy, MMOs, RPGs, party games, you name it. Softly related to that, I'm a big fan of TTRPGs (TableTop RolePlaying Games), the main being D&D. I'm avid storyteller in such games, especially fantasy related.</p>
+                <p>Easy to say that some of those hobbies really made me diligent in things, creating an eye for details. Especially due to story-writing where you have to be careful with all the details so nothing contradicts or leave room for misunderstanding. I try my best often and will go out of my way to help.</p>
+              </div>
+        
+              <div class="tab-pane fade p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <h2>Education</h2>
+                <p>I did one part of my elementary school time in the Netherlands, while the rest was in Croatia. From elementary school I moved on to the Gymnasium of Pula. Beautiful four years which after I went to Rijeka for a year, dipping my hands in electrical engineering. It sadly didn't work out as I intended and transfered to IT in Pula. There I've done myriad of projects in different programming languages which gave me a varied experience.</p>
+                <p>I've worked with different programming languages, like: Kotlin, C#, Java, PHP. I can't say I'm well-versed in any of these other than Kotlin in which I did my final project. But I'm confident enough that I can read and understand what is happening in those codes. I've only recently started web development out of sheer curiousity and can say I'm enjoying it a lot. It started with the idea of wanting to make my own website, and here we are!</p>
+              </div>
+        
+              <div class="tab-pane fade p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <h2>Showing some personal interests</h2>
+                <div class="row g-3">
+                    <div class="col py-3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jtgA0jvhp2A?si=2yyQUz0WAwE2tQ4Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col py-3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CmwSVJhrxts?si=YPlI0qwkcNDkeYF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col py-3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QSEI7tkA0_k?si=BuUWNdZ6FDS9P5q1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col py-3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WEt3pbOP3M4?si=3lgLuKaPd6Zjb2gL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      </section>
+
+      <section id="work">
+        <div class="text-center">
+          <h1 class="display-3">Previous Work</h1>
+          <p class="lead text-muted">All of it can be found on my <a href="https://github.com/Milwahr">Github</a></p>
+        </div>
+
+        <div class="container">
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Apapp
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>Apapp was my final university project to gain my Bachelor's degree. The mobile Android app is essentially a glorified calender-planner. Mainly aimed for people who rent their apartments to tourists here in Croatia during the summer.</p>
+                  <p>Fully written in Kotlin, it had several more unique functionalities, like showing upcoming bookings, hiding those that have past (with filter options to actually show). Simple and intuitive UI, tested with people who aren't as tech-savy. Which was my main aim.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Hero Picker
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>Hero Picker was a small project I did during my university time. Written in C#, we had to make a simple Windows app with several guidelines to follow. As I was pretty big in Overwatch at the time, that is what I based the app on. It's a 'personality' test where the user answers several questions and then a result of which hero would suite their style the best.</p>
+
+                  <p>Other than a personality quiz, it also kept track of the user's results and showed it as a graph in the user's profile tab.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Calverter
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>Calverter was a simple Java app a colleague and I made as a project. Written fully in Java, we made a calculator that was also able to convert measurements when needed. Distance, mass and time were the main converted variables we added to it.</p>
+                  <p>While it was fully written in Java, as the professor was insistent on using Java, I did my part in Kotlin and converted it to Java, which might've not been the best idea, but it worked in the end.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="display-3">Get in Touch</h1>
+            <p class="lead text-muted">If you have any interest in contacting me, feel free to fill out this form!</p>
+          </div>
+
+          <form>
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="johnjohn@example.com" />
+
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Or if you prefer, you can send an email to milic.roberto@gmail.com">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <label for="name" class="form-label">Name:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" id="name" class="form-control" placeholder="e.g. John" />
+
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your message</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      const tooltips = document.querySelectorAll('.tt')
+      tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+      })
+    </script>
+</body>
+</html>
