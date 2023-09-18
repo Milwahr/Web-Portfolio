@@ -1,0 +1,25 @@
+// custom variables
+$primary: rgb(179, 89, 89);
+$secondary: rgba(134, 134, 134, 0.445);
+
+$nav-tabs-link-active-color: Black;
+$nav-tabs-link-active-bg: rgb(226, 226, 226);
+
+$accordion-border-radius: 90%;
+$accordion-inner-border-radius: 50%;
+$accordion-bg: light;
+
+// functions & variables import
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+    "altdark": rgb(97, 49, 97),
+    "altdarker": rgb(90, 9, 83),
+    "grayer": rgb(238, 238, 238)
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
